@@ -104,7 +104,7 @@ nav .row a {
 .upaya {
   padding: 50px 0;
   font-family: "Open Sans", sans-serif;
-  background-color: #f6f6f6;
+  background-color: #ffffff;
 }
 .upaya .header h2 {
   font-family: "Open Sans", sans-serif;
@@ -116,6 +116,16 @@ nav .row a {
 .upaya .container {
   width: 100%;
 }
+
+.upaya .container .header {
+  display: flex;
+  justify-content: center;
+}
+
+.upaya .container .header h2 {
+  text-align: center;
+}
+
 .upaya .container .row {
   width: 80%;
   margin: 0 auto;
