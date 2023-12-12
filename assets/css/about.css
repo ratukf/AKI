@@ -146,6 +146,59 @@ nav .row a {
   margin-bottom: 25px;
 }
 
+.contact {
+  background-color: #fbfbfb;
+  color: #555;
+  font-family: "Open Sans", sans-serif;
+  height: 80vh;
+}
+
+.contact .container .row {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 0.5rem;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.contact .container .row .col-md-11 {
+  width: 100%;
+}
+
+.contact .container .row .col-md-11 h2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #d35b5c;
+  font-size: 3rem;
+}
+
+.contact .container .row .col-md-11 .col-md-5 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 20rem;
+}
+
+.contact .container .row .col-md-11 .col-md-5 i {
+  color: #d35b5c;
+  font-size: 40px;
+}
+
+.contact .container img {
+  width: 50px;
+  height: auto;
+  margin-bottom: 0px;
+}
+.contact .container h5 {
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+}
+.contact .container p {
+  margin-bottom: 5px;
+}
+
+
 footer {
   background-color: #d35b5c;
   padding: 20px 0;
